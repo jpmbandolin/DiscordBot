@@ -1,0 +1,99 @@
+{
+	"apps" : [
+		{
+			"name": "Discord Bot - Music",
+			"script": "./music/main.js",
+			"env": {
+				"NODE_ENV": "development",
+				"BOT_TOKEN": ".."
+			},
+			"env_production": {
+				"NODE_ENV": "production",
+				"BOT_TOKEN": ".."
+			}
+		}, {
+			"name": "Discord Bot - Help",
+			"script": "./help/main.js",
+			"env": {
+				"NODE_ENV": "development",
+				"BOT_TOKEN": ".."
+			},
+			"env_production": {
+				"NODE_ENV": "production",
+				"BOT_TOKEN": ".."
+			}
+		},
+		{
+			"name": "Discord Bot - Motivation",
+			"script": "./motivation/main.js",
+			"env": {
+				"NODE_ENV": "development",
+				"BOT_TOKEN": ".."
+			},
+			"env_production": {
+				"NODE_ENV": "production",
+				"BOT_TOKEN": ".."
+			}
+		},
+		{
+			"name": "Discord Bot - Kick",
+			"script": "./kick/main.js",
+			"env": {
+				"NODE_ENV": "development",
+				"BOT_TOKEN": ".."
+			},
+			"env_production": {
+				"NODE_ENV": "production",
+				"BOT_TOKEN": ".."
+			}
+		},
+		{
+			"name": "Discord Bot - Ban",
+			"script": "./ban/main.js",
+			"env": {
+				"NODE_ENV": "development",
+				"BOT_TOKEN": ".."
+			},
+			"env_production": {
+				"NODE_ENV": "production",
+				"BOT_TOKEN": ".."
+			}
+		},
+		{
+			"name": "Discord Bot - Talk",
+			"script": "./talk/main.js",
+			"env": {
+				"NODE_ENV": "development",
+				"BOT_TOKEN": ".."
+			},
+			"env_production": {
+				"NODE_ENV": "production",
+				"BOT_TOKEN": ".."
+			}
+		},
+		{
+			"name": "Discord Bot - Avatar",
+			"script": "./avatar/main.js",
+			"env": {
+				"NODE_ENV": "development",
+				"BOT_TOKEN": ".."
+			},
+			"env_production": {
+				"NODE_ENV": "production",
+				"BOT_TOKEN": ".."
+			}
+		},
+		{
+			"name": "Discord Bot - Outdated",
+			"script": "./main.js",
+			"env": {
+				"NODE_ENV": "development",
+				"BOT_TOKEN": ".."
+			},
+			"env_production": {
+				"NODE_ENV": "production",
+				"BOT_TOKEN": ".."
+			}
+		}
+	]
+}
