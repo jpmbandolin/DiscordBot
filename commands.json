@@ -1,0 +1,67 @@
+{
+	"commands": [
+		{
+			"name": "!help",
+			"file": "./bot_modules/comands.js",
+			"done": true,
+			"descricao": "Exibe os comandos do BOT",
+			"migrated": true
+		},
+		{
+			"name": "!motivation",
+			"file": "./bot_modules/motivation.js",
+			"done": true,
+			"descricao": "O BOT da o melhor de si para te motivar",
+			"migrated": true
+		},
+		{
+			"name": "!music",
+			"file": "./bot_modules/music.js",
+			"done": true,
+			"descricao": "O BOT irá tocar uma maravilhosa melodia para você",
+			"migrated": true
+		},
+		{
+			"name": "!kick",
+			"file": "./bot_modules/kick.js",
+			"done": true,
+			"descricao": "O BOT ira remover o corno solicidato do grupo. (Não funciona com os Admins)",
+			"migrated": true
+		},
+		{
+			"name": "!pause",
+			"file": "./bot_modules/pauseMusic.js",
+			"done": false,
+			"descricao": "O BOT ira pausar a musica que estiver tocando. (Não tenho ideia de como fazer)",
+			"migrated": false
+		},
+		{
+			"name": "!talk",
+			"file": "./bot_modules/saySomethingNice.js",
+			"done": true,
+			"descricao": "O BOT irá realizar um comentario educado sobre alguém que se encontra online. (Ou não)",
+			"migrated": true
+		},
+		{
+			"name": "!ban",
+			"file": "./bot_modules/ban.js",
+			"done": true,
+			"descricao": "O BOT irá banir um corno. (menos os Admins) (Nunca foi testado)",
+			"migrated": true
+		},
+		{
+			"name": "!avatar",
+			"file": "./bot_modules/avatar.js",
+			"done": true,
+			"descricao": "Troca a foto do bot. É só digitar !avatar {url da imagem}",
+			"migrated": true
+		},
+		{
+			"name": "!invite",
+			"file": "./bot_modules/invite.js",
+			"done": false,
+			"descricao": "O BOT irá gerar um convite",
+			"migrated": false
+		}
+	]
+}

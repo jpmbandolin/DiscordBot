@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "archiver": "^3.1.1",
+    "bestzip": "^2.1.5",
+    "discord.js": "^12.1.1",
+    "google-auth-library": "^6.0.0",
+    "googleapis": "^48.0.0",
+    "mysql": "^2.18.1",
+    "node-addon-api": "^2.0.0",
+    "node-pre-gyp": "^0.14.0",
+    "zip-folder": "^1.0.0"
+  }
+}
